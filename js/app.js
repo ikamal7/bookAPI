@@ -56,7 +56,7 @@ const displaySearchBook = book => {
             <div  class="card h-100 text-center">
                 <img src="${img_url}" class="w-50 h-50 mx-auto" alt="image">
                 <div class="card-body">
-                    <h5 class="card-title">Books Name: ${books.title}</h5>
+                    <h5 class="card-title">${books.title}</h5>
                     <p class="card-text">Author: ${books.author_name}</p>
                     <p class="card-text">First Publish: ${books.first_publish_year ? books.first_publish_year : "No publish"}</p>
                     <p class="card-text">Publisher: ${books.publisher ? books.publisher : 'No publisher'}</p>
